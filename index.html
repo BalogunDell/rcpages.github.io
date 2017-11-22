@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reaction Commerce</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- Custom css -->
+<link rel="stylesheet" href="./Assets/css/index.css">
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Custom Javascript file -->
+<script src="./Assets/js/index.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="#"><img src="./Assets/images/logo.png" alt=""></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <i class="fa fa-language"></i>
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <select name="language" id="language" class="form-control">
+                    <option value="English">Select a language</option>
+                    <option value="English">English</option>
+                    <option value="English">French</option>
+                    <option value="English">Deutsch</option>
+                    <option value="English">Yoruba</option>
+                    <option value="English">Igbo</option>
+                  </select>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Take Tour</a></li> 
+            <li><a href="#">FAQs</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <!-- Navbar ends here -->
+
+ <div class="container-fluid">
+    <!-- Boostrap carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active slide">
+            <img src="./Assets/images/slide1.jpg" alt="Los Angeles">
+          </div>
+      
+          <div class="item">
+            <img src="./Assets/images/slide2.jpg" alt="Chicago">
+          </div>
+      
+          <div class="item">
+            <img src="./Assets/images/slide3.jpg" alt="New York">
+          </div>
+        </div>
+      </div>
+
+    <!-- Boostrap carousel ends here -->
+  </div>
+
+  <div class="container">
+    <div class="row featured">
+      <div class="item">
+        <h1>Featured Products</h1>
+      </div>
+    </div>
+
+    <!-- featured products -->
+    <div class="row">
+      <div class="product-list">
+        <div class="product-item">
+          <img src="./Assets/images/femaleShoe.jpg" alt="">
+          <div class="sale"><h6>Sales</h6></div>
+          <div class="details">
+            <h5>Gap Women Oxford Shoe</h5>
+            <h5>Price: $40</h5>
+            <h5>Qty: 40</h5>
+            <h5>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </h5>
+          </div>
+        </div>
+
+        <div class="product-item">
+            <img src="./Assets/images/man-shirt.jpg" alt="">
+            <div class="details">
+              <h5>Turn-Down Collar Shirt</h5>
+              <h5>Price: $140</h5>
+              <h5>Qty: 4</h5>
+              <h5>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+              </h5>
+            </div>
+          </div>
+
+        <div class="product-item">
+          <img src="./Assets/images/perfume.jpeg" alt="">
+          <div class="details">
+            <h5>Michael Kors Sexy Amber Perfume</h5>
+            <h5>Price: $240</h5>
+            <h5>Qty: 1</h5>
+            <h5>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </h5>
+          </div>
+          </div>
+
+          <div class="product-item">
+            <img src="./Assets/images/jackets.jpg" alt="">
+            <div class="details">
+              <h5>Gap Women Oxford Shoe</h5>
+              <h5>Price: $40</h5>
+              <h5>Qty: 4</h5>
+              <h5>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+              </h5>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FASHION PARALLAX -->
+  <div class="container-fluid fashion-statement">
+    <div class="container">
+      <div class="statement">
+        <h1>Make A Statement</h1>
+        <p>Send the right message to the world around you without voicing a word. 
+          <br/> Pick the best from our fashion collection and let the world hear you. </p>
+        <p class="btn shopping">START SHOPPING</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- BROWSE BY CATEGORY -->
+  <div class="container clothing-samples">
+    <div class="row">
+      <div class="item">
+          <h1>Browse by category</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product-list">
+        <!-- Corporate -->
+          <div class="product">
+            <div id="corporate">
+              <img src="./Assets/images/corporate.jpeg" alt=""/>
+              <div id="corporates-holder">
+                <h5 id="corporate-text">Corporates</h5>
+              </div>
+            </div>
+          </div>
+
+        <!-- Casuals -->
+          <div class="product">
+            <div id="corporate">
+              <img src="./Assets/images/casuals.jpeg" alt=""/>
+              <div id="casuals-holder">
+                <h5 id="casuals-text">Casuals/Accessories</h5>
+              </div>
+            </div>
+          </div>
+
+        <!-- Accessories -->
+          <div class="product">
+            <div id="corporate">
+              <img src="./Assets/images/digital.jpg" alt=""/>
+              <div id="others-holder">
+                <h5 class="others-text">Digital Products</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- OTHER SECTIONS -->
+          <!-- Office equipments -->
+          <div class="product">
+              <div id="corporate">
+                <img src="./Assets/images/kids.jpg" alt=""/>
+                <div id="kids-holder">
+                  <h5 id="kids-text">Kids Fashion</h5>
+                </div>
+              </div>
+            </div>
+  
+          <!-- Home appliances -->
+            <div class="product">
+              <div id="corporate">
+                <img src="./Assets/images/homeAppliances.jpg" alt=""/>
+                <div id="home-holder">
+                  <h5 id="home-text">Home Appliances</h5>
+                </div>
+              </div>
+            </div>
+  
+          <!-- Games -->
+            <div class="product">
+              <div id="corporate">
+                <img src="./Assets/images/games.jpg" alt=""/>
+                <div id="game-holder">
+                  <h5 class="game-text">Games/Accessories</h5>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Digital Products -->
+<div class="container digital-products">
+  <div class="row">
+    <div class="digital-content">
+      <h1>Digital Products At Your Fingertips</h1>
+      <p>Purchase Audios CDs, e-books, softwares and any other digital product you can think of
+        with just a click.</p>    
+    </div>
+  </div>
+</div>
+
+  <!-- Contact -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="item feedback">
+          <h3>GET IN TOUCH WITH US</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="footer-form">
+          <form action="#form">
+            <div class="form-group">
+              <textarea name="" id="" class="form-control" cols="100" rows="5" placeholder="Leave a message"></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" class="btn sendMessage" value="SEND">
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

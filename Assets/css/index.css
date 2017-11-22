@@ -1,0 +1,441 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-default {
+    background: #655cb4 !important;
+    padding: 0;
+    border: none;
+}
+
+.navbar-brand {
+    color: white !important;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.navbar-brand img{
+    max-height: 50px;
+    width: auto;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#myCarousel {
+    width: 100% !important;
+}
+
+#myCarousel img {
+    width: 100% !important;
+    max-height: 500px;
+}
+
+
+.featured {
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.featured h1{
+    padding: 0;
+    margin: 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    margin: auto;
+}
+
+.product-list .product-item {
+    margin-right: 20px;
+    height: 350px;
+    width: 250px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.35);
+    box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.35);
+    position: relative;
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.product-list .product-item .sale {
+    height: 40px;
+    width: 40px;
+    background: red;
+    border-radius: 50%;
+    padding-left: 5px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    font-size: 5px;
+    color: white;
+}
+
+.product-list .product-item:hover {
+    margin-right: 20px;
+    height: 350px;
+    width: 250px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.75);
+    z-index: 2;
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.product-list .product-item .details {
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-list .product-item .details i{
+    color: gold;
+}
+
+.product-list .product-item img{
+    height: 230px;
+    width: auto;
+    margin-right: 20px;
+    max-height: 250px;
+    max-width: 250px;
+    margin: auto;
+}
+.product-list .product {
+    margin-right: 20px;
+    height: 250px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.clothing-samples {
+    margin-top: 100px;
+}
+
+.clothing-samples h1 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.product-list #corporate {
+    height: 250px;
+    width: 350px;
+    position: relative;
+}
+
+.product-list #corporate img{
+    height: 250px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.product-list #corporates-holder h5 {
+    top: 50%;
+    position: absolute;
+    margin-right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.product-list #corporates-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 0;
+    height: 100%;
+}
+
+.product-list #casuals-holder h5 {
+    top: 50%;
+    position: absolute;
+    margin-right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.product-list #casuals-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 0;
+    height: 100%;
+}
+
+
+.product-list #others-holder h5 {
+    top: 50%;
+    position: absolute;
+    margin-right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.product-list #others-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 0;
+    height: 100%;
+}
+
+.product-list #kids-holder h5 {
+    top: 50%;
+    position: absolute;
+    margin-right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.product-list #kids-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 0;
+    height: 100%;
+}
+
+.product-list #game-holder h5 {
+    top: 50%;
+    position: absolute;
+    margin-right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.product-list #game-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 0;
+    height: 100%;
+}
+
+.product-list #home-holder h5 {
+    top: 50%;
+    position: absolute;
+    margin-right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.product-list #home-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 0;
+    height: 100%;
+}
+
+
+/* PARALLAX SECTION FOR STATEMENT */
+.fashion-statement {
+    background-image: url('../images/fashion-statement.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.fashion-statement .statement {
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.fashion-statement .statement h1{
+   font-size: 60px;
+}
+
+.fashion-statement .statement p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.fashion-statement .statement .shopping {
+    background: #655cb4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    transition: color 1s, background 1s;
+}
+
+.fashion-statement .statement .shopping:hover {
+    color: #655cb4;
+    background: white;
+}
+
+/* WHERE WIDTH IS 500 AND BELOW */
+@media screen and (max-width: 500px) {
+    .fashion-statement .statement {
+        position: absolute;
+        right: -1%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    .fashion-statement .statement h1{
+        font-size: 33px;
+        text-align: center;
+     }
+
+     .fashion-statement .statement .shopping {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+     }
+     
+     .fashion-statement .statement p{
+         margin-top: 20px;
+         font-size: 15px;
+         max-width: 400px;
+         padding-right: 10px;
+         padding-left: 10px;
+     }
+}
+
+
+/*PARALLAX SECTION FOR DIGITAL PRODUCTS*/
+.digital-products {
+    background-image: url('../images/software-Product.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+
+@media screen and (max-width: 500px) {
+    .digital-products {
+        background-image: url('');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        min-height: 100%;
+        margin-top: 50px;
+        position: relative;
+    }
+}
+
+
+.digital-products .digital-content h1 {
+    margin-top: 150px;
+    color: #655cb4;
+    max-width: 350px;
+}
+
+.digital-products .digital-content p {
+    font-size: 20px;
+    margin-top: 50px;
+    max-width: 400px;
+}
+
+/* FOOTER */
+.footer {
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 40%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.footer .footer-form {
+    margin: auto;
+    height: 300px;
+    margin-top: 30px; 
+}
+
+.footer .footer-form form{
+    margin: auto;
+    height: 150px;
+    width: 60%;
+}
+
+.footer .footer-form .sendMessage {
+    background: #655cb4;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+    float: right;
+}
+.footer .footer-form form textarea {
+    resize: none;
+}
+
+.footer .feedback {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
